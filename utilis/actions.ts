@@ -1,5 +1,6 @@
 "use server";
 
-export const generateChatResponse = async (chatMessage) => {
-    
-}
+export const generateChatResponse = async (chatMessage: string) => {
+    console.log(chatMessage);
+    return 'awesome';
+  };
